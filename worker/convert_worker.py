@@ -12,8 +12,8 @@ class ConvertWorker(Worker):
                 if os.path.exists(path):
                     with open(path, 'r+', encoding='UTF-8') as file:
                         data = file.read()
-                        if data.find(self.convertFrom) == -1: continue
+                        if data.find(self.convertFrom[0]) == -1: continue
                         file.seek(0)
-                        file.write(data.replace(self.convertFrom, self.convertTo))
+                        file.write(data.replace(self.convertFrom[0], self.convertTo[0]))
                         file.truncate()
         print("done")

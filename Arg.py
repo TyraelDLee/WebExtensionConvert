@@ -38,7 +38,7 @@ class Args:
     def convert_type(self, type):
         rtype = ""
         if type == 'c':
-            rtype = "chrome."
+            rtype = ["chrome.", "chrome"]
         if type == "f":
-            rtype = "browser."
+            rtype = ["browser.", "firefox"]
         return rtype

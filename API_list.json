@@ -1,0 +1,1306 @@
+{
+  "action": {
+    "disable": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "enable": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "getBadgeBackgroundColor": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "getBadgeText": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "getPopup": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "getTitle": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "getUserSettings": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "setBadgeBackgroundColor": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "setBadgeText": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "setIcon": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "setPopup": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "setTitle": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "onClicked": {
+      "chrome": 1,
+      "firefox": 0
+    }
+  },
+  "app.runtime": {
+    "chrome": -1,
+    "firefox": 0
+  },
+  "app.window": {
+    "chrome": -1,
+    "firefox": 0
+  },
+  "appviewTag": {
+    "chrome": -1,
+    "firefox": 0
+  },
+  "audio": {
+    "chrome": -1,
+    "firefox": 0
+  },
+  "alarms": {
+    "clear": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "clearAll": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "create": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "get": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "getAll": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "onAlarm": {
+      "chrome": 1,
+      "firefox": 0
+    }
+  },
+  "bluetooth": {
+    "chrome": -1,
+    "firefox": 0
+  },
+  "bluetoothLowEnergy": {
+    "chrome": -1,
+    "firefox": 0
+  },
+  "bluetoothSocket": {
+    "chrome": -1,
+    "firefox": 0
+  },
+  "bookmarks": {
+    "create": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "get": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "getChildren": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "getRecent": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "getSubTree": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "getTree": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "move": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "remove": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "removeTree": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "search": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "update": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "onChanged": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "onChildrenReordered": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "onCreated": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "onImportBegan": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "onImportEnded": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "onMoved": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "onRemoved": {
+      "chrome": 1,
+      "firefox": 0
+    }
+  },
+  "browserAction": {
+    "disable": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "enable": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "getBadgeBackgroundColor": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "getBadgeText": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "getPopup": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "getTitle": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "setBadgeBackgroundColor": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "setBadgeText": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "setIcon": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "setPopup": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "setTitle": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "onClicked": {
+      "chrome": 1,
+      "firefox": 0
+    }
+  },
+  "browsingData": {
+    "remove": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "removeAppcache": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "removeCache": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "removeCacheStorage": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "removeCookies": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "removeDownloads": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "removeFileSystems": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "removeFormData": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "removeHistory": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "removeIndexedDB": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "removeLocalStorage": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "removePasswords": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "removePluginData": {
+      "chrome": -1,
+      "firefox": 0
+    },
+    "removeServiceWorkers": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "removeWebSQL": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "settings": {
+      "chrome": 1,
+      "firefox": 0
+    }
+  },
+  "certificateProvider": {
+    "reportSignature": {
+      "chrome": 2,
+      "firefox": 2
+    },
+    "requestPin": {
+      "chrome": 2,
+      "firefox": 2
+    },
+    "setCertificates": {
+      "chrome": 2,
+      "firefox": 2
+    },
+    "stopPinRequest": {
+      "chrome": 2,
+      "firefox": 2
+    },
+    "onCertificatesRequested": {
+      "chrome": -1,
+      "firefox": 2
+    },
+    "onCertificatesUpdateRequested": {
+      "chrome": 2,
+      "firefox": 2
+    },
+    "onSignatureRequested": {
+      "chrome": 2,
+      "firefox": 2
+    },
+    "onSignDigestRequested": {
+      "chrome": -1,
+      "firefox": 2
+    }
+  },
+  "commands": {
+    "getAll": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "onCommand": {
+      "chrome": 1,
+      "firefox": 0
+    }
+  },
+  "contextMenus": {
+    "create": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "remove": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "removeAll": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "update": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "onClicked": {
+      "chrome": 1,
+      "firefox": 0
+    }
+  },
+  "cookies": {
+    "get": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "getAll": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "getAllCookieStores": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "remove": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "set": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "onChanged": {
+      "chrome": 1,
+      "firefox": 0
+    }
+  },
+  "debugger": {
+    "attach": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "detach": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "getTargets": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "sendCommand": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "onDetach": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "onEvent": {
+      "chrome": 1,
+      "firefox": 0
+    }
+  },
+  "declarativeContent": {
+    "onPageChanged": {
+      "chrome": 1,
+      "firefox": 0
+    }
+  },
+  "declarativeNetRequest": {
+    "getAvailableStaticRuleCount": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "getDynamicRules": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "getEnabledRulesets": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "getMatchedRules": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "getSessionRules": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "isRegexSupported": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "setExtensionActionOptions": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "updateDynamicRules": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "updateEnabledRulesets": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "updateSessionRules": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "onRuleMatchedDebug": {
+      "chrome": 1,
+      "firefox": 0
+    }
+  },
+  "desktopCapture": {
+    "cancelChooseDesktopMedia": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "chooseDesktopMedia": {
+      "chrome": 1,
+      "firefox": 0
+    }
+  },
+  "devtools.inspectedWindow": {
+    "eval": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "getResources": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "reload": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "onResourceAdded": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "onResourceContentCommitted": {
+      "chrome": 1,
+      "firefox": 0
+    }
+  },
+  "devtools.network": {
+    "getHAR": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "onNavigated": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "onRequestFinished": {
+      "chrome": 1,
+      "firefox": 0
+    }
+  },
+  "devtools.panels": {
+    "create": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "openResource": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "setOpenResourceHandler": {
+      "chrome": 1,
+      "firefox": 0
+    }
+  },
+  "documentScan": {
+    "acceptDanger": {
+      "chrome": 2,
+      "firefox": 2
+    }
+  },
+  "downloads": {
+    "acceptDanger": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "cancel": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "download": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "erase": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "getFileIcon": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "open": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "pause": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "removeFile": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "resume": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "search": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "setShelfEnabled": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "show": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "showDefaultFolder": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "onChanged": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "onCreated": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "onDeterminingFilename": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "onErased": {
+      "chrome": 1,
+      "firefox": 0
+    }
+  },
+  "enterprise.deviceAttributes": {
+    "chrome": 2,
+    "firefox": 2
+  },
+  "enterprise.hardwarePlatform": {
+    "getHardwarePlatformInfo": {
+      "chrome": 2,
+      "firefox": 2
+    }
+  },
+  "enterprise.networkingAttributes": {
+    "getNetworkDetails": {
+      "chrome": 2,
+      "firefox": 2
+    }
+  },
+  "enterprise.platformKeys": {
+    "chrome": 2,
+    "firefox": 2
+  },
+  "extension": {
+    "chrome": -1,
+    "firefox": -1
+  },
+  "fileBrowserHandler": {
+    "chrome": 2,
+    "firefox": 2
+  },
+  "fileSystemProvider": {
+    "chrome": 2,
+    "firefox": 2
+  },
+  "fontSettings": {
+    "clearDefaultFixedFontSize": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "clearDefaultFontSize": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "clearFont": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "clearMinimumFontSize": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "getDefaultFixedFontSize": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "getDefaultFontSize": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "getFont": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "getFontList": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "getMinimumFontSize": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "setDefaultFixedFontSize": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "setDefaultFontSize": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "setFont": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "setMinimumFontSize": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "onDefaultFixedFontSizeChanged": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "onDefaultFontSizeChanged": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "onFontChanged": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "onWriteFileRequested": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "onMinimumFontSizeChanged": {
+      "chrome": 1,
+      "firefox": 0
+    }
+  },
+  "gcm": {
+    "register": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "send": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "unregister": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "onMessage": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "onMessagesDeleted": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "onSendError": {
+      "chrome": 1,
+      "firefox": 0
+    }
+  },
+  "history": {
+    "addUrl": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "deleteAll": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "deleteRange": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "deleteUrl": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "getVisits": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "search": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "onVisited": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "onVisitRemoved": {
+      "chrome": 1,
+      "firefox": 0
+    }
+  },
+  "i18n": {
+    "detectLanguage": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "getAcceptLanguages": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "getMessage": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "getUILanguage": {
+      "chrome": 1,
+      "firefox": 0
+    }
+  },
+  "identity": {
+    "clearAllCachedAuthTokens": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "getAccounts": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "getAuthToken": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "getProfileUserInfo": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "getRedirectURL": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "launchWebAuthFlow": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "removeCachedAuthToken": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "onSignInChanged": {
+      "chrome": 1,
+      "firefox": 0
+    }
+  },
+  "idle": {
+    "getAutoLockDelay": {
+      "chrome": 2,
+      "firefox": 2
+    },
+    "queryState": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "setDetectionInterval": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "onStateChanged": {
+      "chrome": 1,
+      "firefox": 0
+    }
+  },
+  "input.ime": {
+    "chrome": 2,
+    "firefox": 2
+  },
+  "instanceID": {
+    "deleteID": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "deleteToken": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "getCreationTime": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "getID": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "getToken": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "onTokenRefresh": {
+      "chrome": 1,
+      "firefox": 0
+    }
+  },
+  "loginState": {
+    "chrome": 2,
+    "firefox": 2
+  },
+  "management": {
+    "canInstallReplacementAndroidApp": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "createAppShortcut": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "generateAppForLink": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "get": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "getAll": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "getPermissionWarningsById": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "getPermissionWarningsByManifest": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "getSelf": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "installReplacementAndroidApp": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "installReplacementWebApp": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "launchApp": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "setEnabled": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "setLaunchType": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "uninstall": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "uninstallSelf": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "onDisabled": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "onEnabled": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "onInstalled": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "onUninstalled": {
+      "chrome": 1,
+      "firefox": 0
+    }
+  },
+  "notifications": {
+    "clear": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "create": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "getAll": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "getPermissionLevel": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "update": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "onButtonClicked": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "onClicked": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "onClosed": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "onPermissionLevelChanged": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "onShowSettings": {
+      "chrome": -1,
+      "firefox": 0
+    }
+  },
+  "omnibox": {
+    "setDefaultSuggestion": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "onDeleteSuggestion": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "onInputCancelled": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "onInputChanged": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "onInputEntered": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "onInputStarted": {
+      "chrome": 1,
+      "firefox": 0
+    }
+  },
+  "pageAction": {
+    "getPopup": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "getTitle": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "hide": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "setIcon": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "setPopup": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "setTitle": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "show": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "onClicked": {
+      "chrome": 1,
+      "firefox": 0
+    }
+  },
+  "pageCapture": {
+    "saveAsMHTML": {
+      "chrome": 1,
+      "firefox": 0
+    }
+  },
+  "permissions": {
+    "contains": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "getAll": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "remove": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "request": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "onAdded": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "onRemoved": {
+      "chrome": 1,
+      "firefox": 0
+    }
+  },
+  "platformKeys": {
+    "chrome": 2,
+    "firefox": 2
+  },
+  "power": {
+    "releaseKeepAwake": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "requestKeepAwake": {
+      "chrome": 1,
+      "firefox": 0
+    }
+  },
+  "printerProvider": {
+    "onGetCapabilityRequested": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "onGetPrintersRequested": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "onGetUsbPrinterInfoRequested": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "onPrintRequested": {
+      "chrome": 1,
+      "firefox": 0
+    }
+  },
+  "printing": {
+    "chrome": 2,
+    "firefox": 2
+  },
+  "printingMetrics": {
+    "chrome": 2,
+    "firefox": 2
+  },
+  "proxy": {
+    "onProxyError": {
+      "chrome": 1,
+      "firefox": 0
+    }
+  },
+  "runtime": {
+    "connect": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "connectNative": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "getBackgroundPage": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "getManifest": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "getPackageDirectoryEntry": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "getPlatformInfo": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "getURL": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "openOptionsPage": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "reload": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "requestUpdateCheck": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "restart": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "restartAfterDelay": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "sendMessage": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "sendNativeMessage": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "setUninstallURL": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "onBrowserUpdateAvailable": {
+      "chrome": -1,
+      "firefox": 0
+    },
+    "onConnect": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "onConnectExternal": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "onConnectNative": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "onInstalled": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "onMessage": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "onMessageExternal": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "onRestartRequired": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "onStartup": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "onSuspend": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "onSuspendCanceled": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "onUpdateAvailable": {
+      "chrome": 1,
+      "firefox": 0
+    }
+  },
+  "scripting": {
+    "executeScript": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "insertCSS": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "removeCSS": {
+      "chrome": 1,
+      "firefox": 0
+    }
+  },
+  "search": {
+    "query": {
+      "chrome": 1,
+      "firefox": 0
+    }
+  },
+  "sessions": {
+    "getDevices": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "getRecentlyClosed": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "restore": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "onChanged": {
+      "chrome": 1,
+      "firefox": 0
+    }
+  },
+  "storage": {
+    "local": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "managed": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "sync": {
+      "chrome": 1,
+      "firefox": 0
+    },
+    "onChanged": {
+      "chrome": 1,
+      "firefox": 0
+    }
+  },
+  "system.cpu": {
+    "getInfo": {
+      "chrome": 1,
+      "firefox": 0
+    }
+  }
+}
