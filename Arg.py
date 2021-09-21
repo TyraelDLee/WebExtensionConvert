@@ -24,12 +24,12 @@ class Args:
             return
 
         if os.path.exists(sys.argv[1]) and "-" not in sys.argv[2]:
-            self.error = "convertType error.\r\n"+self.usage
+            self.error = "@"+sys.argv[2]+"\r\nconvertType error.\r\n"+self.usage
             return
         else:
             convertType = sys.argv[2].split("-")
             if convertType[0] not in self.supportType or convertType[1] not in self.supportType:
-                self.error = "convertType error.\r\n"+self.usage
+                self.error = "@\""+convertType[0]+"\" or \""+convertType[1]+"\" convertType error.\r\n"+self.usage
                 return
             self.args['dir'] = sys.argv[1]
             self.args['convertFrom'] = self.convert_type(convertType[0])
