@@ -11,6 +11,7 @@ The number in API list:
  2: Specific OS only
 """
 class CompatibilityWorker(Worker):
+    file_name = []
     warning = ''
     error = ''
     api_list = {}
@@ -21,20 +22,30 @@ class CompatibilityWorker(Worker):
             self.api_list = json.load(data)
 
     def check(self):
-        for root, dirs, files in os.walk(self.directory, topdown=False):
+        for root, dirs, files in os.walk(self.directory, topdown=True):
             for name in files:
+                try:
+                    name.encode('utf-8').decode('ascii')
+                except UnicodeDecodeError:
+                    self.file_name.append(str(root+os.sep+name).replace(self.directory,""))
                 if str(Path(name).suffix) != '.js': continue
-                path = root + os.sep + os.sep.join(dirs) + name
+                path = root + os.sep + name
                 if os.path.exists(path):
                     location = 0
                     for line in open(path, 'r', encoding='UTF-8'):
                         location += 1
                         if self.convertTo[0] in line or self.convertFrom[0] in line:
                             self.compatibility_check(line, str(path).replace(self.directory, ""), str(location))
+
         if len(self.warning) > 0:
             print(self.warning)
         if len(self.error) > 0:
             print(self.error)
+        if len(self.file_name) and self.convertTo[1] == "firefox":
+            fileErr = ("WARNING: Non-ASCII file name found. Errors might occur on "+self.convertTo[1]+" by file name. \r\nPlease consider replace Non-ASCII file name.\r\nAt\t")
+            for name in self.file_name:
+                fileErr += ("."+name + "\r\n\t")
+            print(fileErr)
 
     def compatibility_check(self, data, path, location):
         webType = str(self.convertTo[1])
