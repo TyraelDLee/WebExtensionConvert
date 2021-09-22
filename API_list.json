@@ -1419,6 +1419,14 @@
     "onProxyError": {
       "chrome": 1,
       "firefox": 0
+    },
+    "onError": {
+      "chrome": 0,
+      "firefox": 1
+    },
+    "onRequest": {
+      "chrome": 0,
+      "firefox": 1
     }
   },
   "runtime": {
@@ -1572,21 +1580,53 @@
       "chrome": 1,
       "firefox": 0
     },
+    "forgetClosedTab": {
+      "chrome": 0,
+      "firefox": 1
+    },
+    "forgetClosedWindow": {
+      "chrome": 0,
+      "firefox": 1
+    },
     "getDevices": {
       "chrome": 1,
       "firefox": 0
     },
     "getRecentlyClosed": {
       "chrome": 1,
-      "firefox": 0
+      "firefox": 1
+    },
+    "getTabValue": {
+      "chrome": 0,
+      "firefox": 1
+    },
+    "getWindowValue": {
+      "chrome": 0,
+      "firefox": 1
     },
     "restore": {
       "chrome": 1,
-      "firefox": 0
+      "firefox": 1
+    },
+    "removeTabValue": {
+      "chrome": 0,
+      "firefox": 1
+    },
+    "removeWindowValue": {
+      "chrome": 0,
+      "firefox": 1
+    },
+    "setTabValue": {
+      "chrome": 0,
+      "firefox": 1
+    },
+    "setWindowValue": {
+      "chrome": 0,
+      "firefox": 1
     },
     "onChanged": {
       "chrome": 1,
-      "firefox": 0
+      "firefox": 1
     }
   },
   "storage": {
@@ -1760,6 +1800,10 @@
       "chrome": 1,
       "firefox": 1
     },
+    "captureTab": {
+      "chrome": 0,
+      "firefox": 1
+    },
     "connect": {
       "chrome": 1,
       "firefox": 1
@@ -1836,6 +1880,18 @@
       "chrome": 1,
       "firefox": 1
     },
+    "moveInSuccession": {
+      "chrome": 0,
+      "firefox": 1
+    },
+    "print": {
+      "chrome": 0,
+      "firefox": 1
+    },
+    "printPreview": {
+      "chrome": 0,
+      "firefox": 1
+    },
     "query": {
       "chrome": 1,
       "firefox": 1
@@ -1850,6 +1906,10 @@
     },
     "removeCSS": {
       "chrome": -1,
+      "firefox": 1
+    },
+    "saveAsPDF": {
+      "chrome": 0,
       "firefox": 1
     },
     "sendMessage": {
@@ -1868,12 +1928,24 @@
       "chrome": 1,
       "firefox": 0
     },
+    "show": {
+      "chrome": 0,
+      "firefox": 1
+    },
+    "toggleReaderMode": {
+      "chrome": 0,
+      "firefox": 1
+    },
     "ungroup": {
       "chrome": 1,
       "firefox": 0
     },
     "update": {
       "chrome": 1,
+      "firefox": 1
+    },
+    "warmup": {
+      "chrome": 0,
       "firefox": 1
     },
     "onActivated": {
@@ -1932,7 +2004,7 @@
   "topSites": {
     "get": {
       "chrome": 1,
-      "firefox": 0
+      "firefox": 1
     }
   },
   "tts": {
