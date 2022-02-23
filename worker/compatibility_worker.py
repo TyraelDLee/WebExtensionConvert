@@ -33,7 +33,12 @@ class CompatibilityWorker(Worker):
                 if os.path.exists(path):
                     location = 0
                     for line in open(path, 'r', encoding='UTF-8'):
+                        line = line.replace(' ', '').replace('\"', '\'')
                         location += 1
+                        if ('extraHeaders' in line or 'extraHeaders' in line) and self.convertTo[1] == 'firefox':
+                            self.error += 'ERROR: extraHeaders is not support by firefox\r\n\tFile .'+str(path).replace(self.directory, "") + " line " + str(location) + "\r\n"
+                        if 'http://' in line:
+                            self.error += 'WARNING: unsafe request found, please consider converting the request to https.\r\n\tFile .'+str(path).replace(self.directory, "") + " line " + str(location) + "\r\n"
                         if self.convertTo[0] in line or self.convertFrom[0] in line:
                             self.compatibility_check(line, str(path).replace(self.directory, ""), str(location))
 

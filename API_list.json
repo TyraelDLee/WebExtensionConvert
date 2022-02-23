@@ -119,13 +119,19 @@
       "firefox": 0
     }
   },
-  "app.runtime": {
-    "chrome": -1,
-    "firefox": 0
-  },
-  "app.window": {
-    "chrome": -1,
-    "firefox": 0
+  "app": {
+    "runtime": {
+      "chrome": -1,
+      "firefox": 0
+    },
+    "window": {
+      "chrome": -1,
+      "firefox": 0
+    },
+    "isInstalled": {
+      "chrome": -1,
+      "firefox": 0
+    }
   },
   "appviewTag": {
     "chrome": -1,
@@ -454,7 +460,7 @@
   "contextMenus": {
     "create": {
       "chrome": 1,
-      "firefox": 0
+      "firefox": 1
     },
     "remove": {
       "chrome": 1,
@@ -470,7 +476,7 @@
     },
     "onClicked": {
       "chrome": 1,
-      "firefox": 0
+      "firefox": 1
     }
   },
   "contentScripts": {
